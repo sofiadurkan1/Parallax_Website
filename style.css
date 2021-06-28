@@ -17,17 +17,17 @@ body,html{
 }
 
 .image2{
-    background-image: url(./images/parallax2.jpeg);
+    background-image: url(./images/parallax\ 4.jpeg);
     min-height: 100%;
 
 }
 .image3{
-    background-image: url(./images/parallax3.jpeg);
+    background-image: url(./images/parallax2.jpeg);
     min-height: 100%;
 }
 .image1,.image2,.image3{
     position: relative;
-    opacity: 0.9;
+    opacity: 0.7;
     background-attachment: fixed;
     background-position: cover;
     background-repeat: no-repeat;
