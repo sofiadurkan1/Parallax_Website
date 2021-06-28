@@ -48,6 +48,7 @@ body,html{
     color: #fff;
     padding: 20px;
     font-size:27px ;
+    font-weight: 400;
 }
 /* div{
     display: block;
@@ -76,13 +77,14 @@ section{
 }
 .header2{
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 8px;
     text-transform: uppercase;
     word-spacing: 0px;
     position: absolute;
     top: 50%;
     width: 100%;
+    font-weight: lighter;
 }
 
 
@@ -113,3 +115,5 @@ section{
     font-size: 1.687em;
     font-weight:bolder;
 }
+
+
