@@ -1,0 +1,115 @@
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 28.8px;
+    text-align: center;
+    word-spacing: 0px;
+
+   
+
+}
+.image1{
+    background-image: url(./images/paralllax\ first.jpeg);
+    min-height: 100%;
+}
+
+.image2{
+    background-image: url(./images/parallax2.jpeg);
+    min-height: 100%;
+
+}
+.image3{
+    background-image: url(./images/parallax3.jpeg);
+    min-height: 100%;
+}
+.image1,.image2,.image3{
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.header1{
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.text1{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-size:27px ;
+}
+/* div{
+    display: block;
+} */
+
+section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.sectionone{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.sectiontwo{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+
+
+.header2,.text2{
+    background-color:transparent ;
+    color: #fff;
+
+
+}
+.header2{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    word-spacing: 0px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+
+/* h2{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    height: 28px;
+    width: 901px;
+    margin: 20px 0 20px 0;
+
+} */
+.sectionthree{
+    background-color: #282e34;
+    color: #ddd;
+
+}
+.text4{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-size: 27px;
+}
+.section__head{
+    color: #fff;
+    padding: 20px;
+    /* font-size: 27px; */
+    font-size: 1.687em;
+    font-weight:bolder;
+}
